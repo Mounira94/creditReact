@@ -1,32 +1,155 @@
-.App {
-  text-align: center;
-}
+.main
+{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+margin-left: 200px;
+margin-top: 20px;
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.card
+{
+    background-image: url("./components/images/planete.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 320px;
+    padding: 0px 20px 20px 40px;
 }
+.name
+{
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.code-img
+{
+    width: 75px;
+    height:60px ;
+    border-radius: 5px;
+    margin-left: 10px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.card-img
+{
+    height: 100px;
+width: 70px;
+}
+.card-detail
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+.card-detail-desc
+{
+    margin: 0px;
+}
+.code-card
+{
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: number;
+    color: rgb(219, 210, 141);
+    background-color: rgba(247, 231, 92, 0.5);
+    font-weight: bold;
+   
+}
+.validity-card
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.validity
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-left: 130px;
+}
+.validity-thru
+{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+}
+.text-validity-thru
+{
+    display: flex;
+    flex-direction: column;
+
+}
+.code-validity
+{
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: white;
+    
+}
+.validity-desc
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+    
+}
+.text-validity
+{
+    font-size: 10px;
+    color: white;
+    margin-right: 5px;
+}
+.fa-caret-right
+{
+    color: white;
+    margin-top: 3px;
+}
+.card-detail-type
+{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.holder-text
+{
+    font-size: 20px;
+    color: white;
+    margin-top: -30px;
+    font-weight: bold;
+}
+.visa-img{
+    display: flex;
+    align-items: flex-end;   
+
+}
+.card-img
+{
+   padding: 30px 20px;
+}
+.inputs
+{ 
+    display: flex;
+    flex-direction: column;
+    
+}
+.input{
+    width: 450px;
+    height: 50px;
+    margin: 20px 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(7, 7, 65);
+
 }
